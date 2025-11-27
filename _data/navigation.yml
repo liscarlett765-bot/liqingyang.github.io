@@ -8,14 +8,14 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  #- title: "CV"
-  # url: /files/LiQingyang Resume.pdf
+  - title: "CV"
+    url: /files/LiQingyang Resume.pdf
   
   - title: "Portfolio"
     url: /portfolio/
 
-   - title: "Publications"
-   url: /publications/
+  - title: "Publications"
+    url: /publications/
 
  
   
