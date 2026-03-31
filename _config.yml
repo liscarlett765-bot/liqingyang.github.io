@@ -8,6 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
+site_theme               : "default" 
 title                    : "Qingyang's Homepage"
 title_separator          : "-"
 name                     : &name "Scarlett Qingyang LI"
@@ -25,7 +26,9 @@ author:
   avatar           : "bio_photo.png"
   name             : "Scarlett Qingyang LI"
   pronouns         : "she/her"  
-  bio              : "Nice to meet you! I am a first year research postgraduate student in The Hong Kong University of Science and Technology (HKUST), studying Economics and Envrionmental Science. As that, my research interest currently focus on the economic impact of extreme weather events, innovation and policy interpretation. /n If you have any interesting ideas or comment please feel free to connect me!"
+  bio              : "Nice to meet you!"
+  location         : "Earth"
+  employer         : "HKUST"
   email            : "qlice@connect.ust.hk" 
 
   # Academic websites
@@ -78,10 +81,11 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
+
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
    manuscripts:
-    title: 'Working Research Papers:' 
+    title: 'Working Research Papers' 
       
         
 
@@ -133,7 +137,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -230,6 +234,13 @@ collections:
 # These settings control how pages and collections are included in the site
 defaults:
 
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
   # _publications
   - scope:
       path: ""
